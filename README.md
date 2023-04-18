@@ -3,4 +3,4 @@
 
 ## Szia Tritya Markdown
 
-*ktt tanár nem tanít, nekem se tanulni*
+*ktt tanár nem tanít, nekem se kell tanulni*
