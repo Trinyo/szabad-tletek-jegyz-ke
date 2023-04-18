@@ -13,17 +13,17 @@
       }
       @keyframes move {
         0% {
-            rotate: 0deg;
+          rotate: 0deg;
           width: 20%;
           height: 20%;
         }
         50% {
-            rotate: 180deg;
+          rotate: 180deg;
           width: 40%;
           height: 40%;
         }
         100% {
-            rotate: 360deg;
+          rotate: 360deg;
           width: 20%;
           height: 20%;
         }
@@ -41,17 +41,29 @@
     </div>
     <script>
       function among() {
-        console.log()
-        if ((document.getElementById("szamod").value == "")) {
+        console.log();
+        if (document.getElementById("szamod").value == "") {
           window.alert("add meg ples😎😋😋☺😍🙂🤩😍🙂😣🤩😏😣😊🥰🙂");
         } else {
-          const szam = Math.abs(parseInt(document.getElementById("szamod").value));
+          const szam = Math.abs(
+            parseInt(document.getElementById("szamod").value)
+          );
           document.getElementById("meno").remove();
           const among = document.getElementById("mongus");
           for (let i = 0; i < szam; i++) {
             let sus = document.createElement("img");
-            sus.src = "fontos.jpg";
-            sus.style = "margin: 0; position: absolute;";
+            let amongus = Math.floor(Math.random()*100);
+            console.log(amongus)
+            if (amongus < 3) {
+              sus.src =
+                "https://media1.s-nbcnews.com/i/streams/2013/August/130808/6C8558749-130808-walter-white-tease.jpg";
+            } else if (amongus < 6) {
+              sus.src =
+                "https://upload.wikimedia.org/wikipedia/commons/1/16/Saul_Goodman.jpg";
+            } else {
+              sus.src = "fontos.jpg";
+            }
+            sus.style = "margin: 0; position: absolute;opacity:0.6";
             sus.style.top = Math.random() * 100 + "%";
             sus.style.left = Math.random() * 100 + "%";
             among.appendChild(sus);
