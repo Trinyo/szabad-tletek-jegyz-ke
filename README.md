@@ -4,4 +4,5 @@
 ## Szia Tritya Markdown
 
 *ktt tanár nem tanít, nekem se kell tanulni*
-*túlsokat kérdeztek nem tudunk haladni
+
+*túlsokat kérdeztek nem tudunk haladni*
