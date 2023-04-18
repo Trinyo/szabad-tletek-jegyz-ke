@@ -1,0 +1,1 @@
+# szabad-tletek-jegyz-ke
